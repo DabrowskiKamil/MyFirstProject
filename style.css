@@ -28,15 +28,15 @@ aside {
   position: relative;
   color: #ffffff;
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .contact-links {
   position: relative;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  opacity: 0.5;
+  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -62,19 +62,19 @@ aside {
 
 .contact-block {
   position: relative;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 20px;
+  margin-left: 35px;
 }
 
 .tech-skills-block {
   position: relative;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 55px;
+  margin-left: 35px;
 }
 
 .soft-skills-block {
   position: relative;
-  margin-top: 40px;
+  margin-top: 55px;
   margin-left: 40px;
   padding-bottom: 34px;
 }
@@ -82,6 +82,7 @@ aside {
 .small-header-secondary {
   color: #ff571f;
   margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 /* .horizontal-line-secondary {
@@ -90,3 +91,20 @@ aside {
   opacity: 0.2;
   font-weight: 150;
 } */
+
+.phone-icon {
+  border-radius: 5px;
+  position: relative;
+  background-color: #ff571f;
+  top: 6px;
+  margin-right: 8px;
+}
+
+.email-icon {
+  border-radius: 5px;
+  position: relative;
+  background-color: #ff571f;
+  top: 6px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
