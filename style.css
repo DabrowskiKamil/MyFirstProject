@@ -1,22 +1,25 @@
 body {
-  background: #ffffff;
+  background: black;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  height: 1319px;
   justify-content: center;
   margin: 0 auto;
-  background: black;
+  background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 60px 88px 102px 88px;
 }
 
 aside {
   width: 370px;
-  height: 1319px;
   background: #060e09;
 }
 
@@ -107,4 +110,96 @@ aside {
   top: 6px;
   margin-right: 8px;
   margin-top: 8px;
+}
+
+.main-description {
+  width: 400px;
+}
+
+.position-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h1 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects {
+  width: 485px;
+  margin-top: 40px;
+  margin-bottom: 51px;
+}
+
+.list-primary {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.list-primary-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.header-primary {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.position-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+
+.highlight-orange {
+  color: #ff571f;
+}
+
+.highlight-black {
+  color: #000000;
+}
+
+.position-dates {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.position-list {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.employment-block {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.education-block {
+  margin-top: 43px;
+  margin-bottom: 107px;
 }
