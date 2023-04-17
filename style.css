@@ -208,12 +208,13 @@ h1 {
   margin-bottom: 107px;
 }
 
-.main-block-list {
+.main-block {
   list-style: none;
   padding: 0;
 }
 
-.main-block-list-item {
+.main-block-item {
   display: inline-block;
   list-style: none;
+  vertical-align: middle;
 }
