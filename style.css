@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  justify-content: center;
+  justify-content: left;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -118,19 +118,21 @@ aside {
 
 .position-title {
   position: relative;
-  left: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
 }
 
 h1 {
+  top: 5%;
   position: relative;
-  width: 500px;
+  width: 280px;
+  height: 144px;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .description {
@@ -138,6 +140,7 @@ h1 {
   font-weight: 400;
   line-height: 24px;
   color: #595959;
+  width: auto;
 }
 
 .projects {
@@ -208,13 +211,19 @@ h1 {
   margin-bottom: 107px;
 }
 
-.main-block {
-  list-style: none;
-  padding: 0;
+.flex-main-block {
+  display: flex;
+  width: 50%;
 }
 
-.main-block-item {
-  display: inline-block;
-  list-style: none;
-  vertical-align: middle;
+.flex-main-block-item {
+  flex: 1;
+}
+
+.main-block-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
 }
