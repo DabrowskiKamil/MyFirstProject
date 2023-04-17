@@ -1,5 +1,5 @@
 body {
-  background: #faf5f5;
+  background: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -7,14 +7,16 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
+  height: 1319px;
   justify-content: center;
   margin: 0 auto;
-  background: #ffffff;
+  background: black;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 aside {
   width: 370px;
+  height: 1319px;
   background: #060e09;
 }
 
@@ -23,11 +25,14 @@ aside {
 }
 
 .header-secondary {
+  position: relative;
   color: #ffffff;
   margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 .contact-links {
+  position: relative;
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
@@ -40,9 +45,10 @@ aside {
 }
 
 .list-secondary {
+  position: relative;
   font-size: 14px;
   line-height: 17px;
-  color: #fb6d3a;
+  color: #ff571f;
   margin-top: 5px;
   margin-left: 3px;
   padding-left: 0;
@@ -50,25 +56,37 @@ aside {
 }
 
 .list-secondary-item {
+  position: relative;
   color: #ffffff;
 }
 
 .contact-block {
-  margin-top: 51px;
+  position: relative;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
 .tech-skills-block {
-  margin-top: 47px;
+  position: relative;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
 .soft-skills-block {
-  margin-top: 44px;
+  position: relative;
+  margin-top: 40px;
   margin-left: 40px;
+  padding-bottom: 34px;
 }
 
 .small-header-secondary {
-  color: #fb6d3a;
+  color: #ff571f;
   margin-bottom: 0px;
 }
+
+/* .horizontal-line-secondary {
+  position: relative;
+  color: #ffffff;
+  opacity: 0.2;
+  font-weight: 150;
+} */
