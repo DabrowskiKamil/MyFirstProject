@@ -41,10 +41,10 @@ aside {
 
 .list-secondary {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 17px;
   color: #fb6d3a;
   margin-top: 5px;
-  margin-left: 0;
+  margin-left: 3px;
   padding-left: 0;
   list-style-position: inside;
 }
