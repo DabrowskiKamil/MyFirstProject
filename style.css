@@ -138,11 +138,12 @@ h1 {
 }
 
 .description {
+  position: relative;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #595959;
-  width: auto;
+  width: 670px;
 }
 
 .projects {
@@ -220,7 +221,7 @@ h1 {
   padding-left: 0;
   list-style-position: inside;
   color: #595959;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 
 .employment-block {
@@ -246,6 +247,7 @@ h1 {
 }
 
 .main-block-description {
+  position: relative;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
