@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  padding: 60px 88px 102px 88px;
+  padding: 60px 88px 102px 65px;
 }
 
 aside {
@@ -121,18 +121,21 @@ aside {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  margin-top: 0;
+  bottom: 10px;
+  padding-left: 2px;
 }
 
 h1 {
   top: 5%;
   position: relative;
   width: 280px;
-  height: 144px;
+  height: auto;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .description {
@@ -186,6 +189,14 @@ h1 {
   color: #000000;
 }
 
+.highlight-keywords-invert {
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #060e09;
+  padding: 0.25em 0;
+  color: #ff571f;
+}
+
 .position-dates {
   font-size: 12px;
   font-weight: 400;
@@ -226,4 +237,5 @@ h1 {
   line-height: 24px;
   color: #595959;
   width: 400px;
+  opacity: 0.3;
 }
