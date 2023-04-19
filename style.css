@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: rgb(18, 19, 19);
   font-family: "Montserrat", sans-serif;
   color: black;
 }
@@ -7,15 +7,14 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
-  justify-content: left;
+  width: 1160px;
+  justify-content: center;
   margin: 0 auto;
   background: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 main {
-  padding: 60px 88px 102px 65px;
+  padding: 60px 88px 30px 35px;
 }
 
 aside {
@@ -144,6 +143,7 @@ h1 {
   line-height: 24px;
   color: #595959;
   width: 670px;
+  margin: 2px 0 2px 0;
 }
 
 .projects {
@@ -173,7 +173,7 @@ h1 {
   font-weight: 700;
   line-height: 27px;
   margin-bottom: 12px;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 .position-name {
@@ -194,7 +194,7 @@ h1 {
   border-radius: 4px;
   display: inline-block;
   background-color: #060e09;
-  padding: 0.25em 0;
+  padding: 0.16em 0;
   color: #ff571f;
 }
 
@@ -202,7 +202,7 @@ h1 {
   border-radius: 4px;
 
   background-color: #ff571f;
-  padding: 0.25em 0;
+  padding: 0.15em 0;
   color: #060e09;
 }
 
@@ -233,8 +233,6 @@ h1 {
   bottom: 20px;
   position: relative;
   margin-top: 0;
-  margin-bottom: auto;
-  padding-bottom: 20px;
 }
 
 .flex-main-block {
